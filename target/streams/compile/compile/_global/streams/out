@@ -1,0 +1,28 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:44:65: parameter value request in method authenticate is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def authenticate(username: String, password: String)(implicit request: RequestHeader): Future[AuthContext] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:47:42: parameter value request in method authenticate is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def authenticate(key: String)(implicit request: RequestHeader): Future[AuthContext] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:50:31: parameter value request in method authenticate is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def authenticate()(implicit request: RequestHeader): Future[Either[Result, AuthContext]] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:53:91: parameter value authContext in method changePassword is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def changePassword(username: String, oldPassword: String, newPassword: String)(implicit authContext: AuthContext): Future[Unit] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:56:67: parameter value authContext in method setPassword is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def setPassword(username: String, newPassword: String)(implicit authContext: AuthContext): Future[Unit] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:59:43: parameter value authContext in method renewKey is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def renewKey(username: String)(implicit authContext: AuthContext): Future[String] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:61:41: parameter value authContext in method getKey is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def getKey(username: String)(implicit authContext: AuthContext): Future[String] = Future.failed(AuthorizationError("Get API key is not supported"))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:63:44: parameter value authContext in method removeKey is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def removeKey(username: String)(implicit authContext: AuthContext): Future[Unit] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/database/DBIndex.scala:61:10: method includeTypeName in class CreateIndexRequest is deprecated (since 7.0.0): types are deprecated[0m
+[0m[[0m[33mwarn[0m] [0m[0m        .includeTypeName(false)[0m
+[0m[[0m[33mwarn[0m] [0m[0m         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m9 warnings found[0m

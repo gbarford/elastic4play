@@ -8,7 +8,6 @@ logs
 .history
 .lib/
 dist/*
-target/
 lib_managed/
 src_managed/
 project/boot/

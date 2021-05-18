@@ -1,0 +1,155 @@
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /home/giles/elastic4play/target/scala-2.12/api...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.4:compile for Scala 2.12.12[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.12. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.12.12.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_c0c08f14[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.4/compiler-interface-1.3.4.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.3.4/compiler-bridge_2.12-1.3.4-sources.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.12/scala-compiler-2.12.12.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Command.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/CompilerInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/ConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/InteractiveConsoleFactory.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/InteractiveConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/JarUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/ScaladocInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 8.751s.[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalling Scaladoc with arguments:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UTF-8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-adapted-args[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-value-discard[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-inaccessible[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ywarn-dead-code[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utf8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/target/scala-2.12/api[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.8.1/play-functional_2.12-2.8.1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.11.2/jackson-module-scala_2.12-2.11.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.8/akka-actor_2.12-2.6.8.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.3/build-link-2.8.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-core_2.12/7.9.1/elastic4s-core_2.12-7.9.1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.8.3/play_2.12-2.8.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.10.0/checker-qual-2.10.0.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http2-support_2.12/2.8.3/play-akka-http2-support_2.12-2.8.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.5.0/twirl-api_2.12-1.5.0.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.8.3/play-akka-http-server_2.12-2.8.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.12/akka-http-core_2.12-10.1.12.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/alpn/alpn-api/1.1.3.v20160715/alpn-api-1.1.3.v20160715.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.12/akka-parsing_2.12-10.1.12.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.11.2/jackson-module-paranamer-2.11.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/hpack/1.0.2/hpack-1.0.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sksamuel/exts/exts_2.12/1.61.1/exts_2.12-1.61.1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.8.1/play-json_2.12-2.8.1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.3/play-exceptions-2.8.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.8/akka-slf4j_2.12-2.6.8.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.12/httpcore-nio-4.4.12.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.4/jackson-datatype-jsr310-2.10.4.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-http-streams_2.12/7.9.1/elastic4s-http-streams_2.12-7.9.1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.8/akka-actor-typed_2.12-2.6.8.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.4/jackson-datatype-jdk8-2.10.4.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.1.2/scalactic_2.12-3.1.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.4/jackson-dataformat-cbor-2.10.4.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-cache_2.12/2.8.3/play-cache_2.12-2.8.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-client-esjava_2.12/7.9.1/elastic4s-client-esjava_2.12-7.9.1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.12/2.6.8/akka-serialization-jackson_2.12-2.6.8.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.2-jre/guava-28.2-jre.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.8.3/filters-helpers_2.12-2.8.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.9.1/scala-java8-compat_2.12-0.9.1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http2-support_2.12/10.1.12/akka-http2-support_2.12-10.1.12.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.8/akka-protobuf-v3_2.12-2.6.8.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/alpn/jetty-alpn-agent/2.0.10/jetty-alpn-agent-2.0.10.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.4/jackson-module-parameter-names-2.10.4.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.2/ssl-config-core_2.12-0.4.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.8.3/play-streams_2.12-2.8.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.8/akka-stream_2.12-2.6.8.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.8.3/play-logback_2.12-2.8.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.58/bcprov-jdk15on-1.58.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.9.1/elasticsearch-rest-client-7.9.1.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.8.3/play-server_2.12-2.8.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/ClientAuthSSLEngineProvider.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/ErrorHandler.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/Errors.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/JsonFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/Timed.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/controllers/Authenticated.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/controllers/Fields.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/controllers/JsonFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/controllers/MigrationCtrl.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/controllers/Renderer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/database/DBConfiguration.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/database/DBCreate.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/database/DBFind.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/database/DBGet.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/database/DBIndex.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/database/DBModify.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/database/DBRemove.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/database/DBSequence.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/database/DBUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/AttachmentAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/Attributes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/BinaryAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/BooleanAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/CustomAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/DateAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/EnumerationAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/Errors.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/HashAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/HiveEnumeration.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/JsonFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/ListEnumerationAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/MetricsAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/ModelDef.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/MultiAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/NumberAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/ObjectAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/OptionalAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/RawAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/StringAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/TextAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/UUIDAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/models/UserAttributeFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/Aggregations.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/AttachmentSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/AuxSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/CreateSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/DBList.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/DeleteSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/EventSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/ExecutionContextSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/FieldsSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/FindSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/GetSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/JsonFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/MigrationSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/ModelSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/QueryDSL.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/SequenceSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/TempSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/UpdateSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/auth/ADAuthSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/auth/LdapAuthSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/services/auth/MultiAuthSrv.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/utils/Collection.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/utils/Hash.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/utils/Instance.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/utils/JsonFormat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/utils/RetryOnError.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/elastic4play/app/org/elastic4play/utils/package.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:44:65: parameter value request in method authenticate is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def authenticate(username: String, password: String)(implicit request: RequestHeader): Future[AuthContext] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:47:42: parameter value request in method authenticate is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def authenticate(key: String)(implicit request: RequestHeader): Future[AuthContext] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:50:31: parameter value request in method authenticate is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def authenticate()(implicit request: RequestHeader): Future[Either[Result, AuthContext]] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:53:91: parameter value authContext in method changePassword is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def changePassword(username: String, oldPassword: String, newPassword: String)(implicit authContext: AuthContext): Future[Unit] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:56:67: parameter value authContext in method setPassword is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def setPassword(username: String, newPassword: String)(implicit authContext: AuthContext): Future[Unit] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:59:43: parameter value authContext in method renewKey is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def renewKey(username: String)(implicit authContext: AuthContext): Future[String] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:61:41: parameter value authContext in method getKey is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def getKey(username: String)(implicit authContext: AuthContext): Future[String] = Future.failed(AuthorizationError("Get API key is not supported"))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/giles/elastic4play/app/org/elastic4play/services/UserSrv.scala:63:44: parameter value authContext in method removeKey is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def removeKey(username: String)(implicit authContext: AuthContext): Future[Unit] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m8 warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
