@@ -1,16 +1,10 @@
 name := "elastic4play"
 
-organization := "gbarford"
-
-organizationName := "TheHive-Project"
-
-organizationHomepage := Some(url("https://thehive-project.org/"))
-
-licenses += "AGPL-V3" -> url("https://www.gnu.org/licenses/agpl-3.0.html")
-
 githubOwner := "gbarford"
 
 githubRepository := "elastic4play"
+
+githubTokenSource := TokenSource.GitConfig("github.token")
 
 lazy val elastic4play = (project in file("."))
   .enablePlugins(PlayScala, PlayAkkaHttp2Support)
@@ -37,10 +31,6 @@ dependencyOverrides ++= Seq(
 )
 
 PlayKeys.externalizeResources := false
-
-bintrayOrganization := Some("thehive-project")
-
-bintrayRepository := "maven"
 
 publishMavenStyle := true
 

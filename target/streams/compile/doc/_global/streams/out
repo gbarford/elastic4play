@@ -1,41 +1,5 @@
 [0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /home/giles/elastic4play/target/scala-2.12/api...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.4:compile for Scala 2.12.12[0m
-[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.12. Compiling...[0m
-[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.12.12.[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_c0c08f14[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.4/compiler-interface-1.3.4.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.3.4/compiler-bridge_2.12-1.3.4-sources.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.12/scala-compiler-2.12.12.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar:/home/giles/.cache/coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/API.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Analyzer.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/CallbackGlobal.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/ClassName.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Command.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Compat.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/CompilerInterface.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/ConsoleInterface.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/DelegatingReporter.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Dependency.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/ExtractAPI.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/ExtractUsedNames.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/GlobalHelpers.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/InteractiveConsoleFactory.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/InteractiveConsoleHelper.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/InteractiveConsoleInterface.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/InteractiveConsoleResponse.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/JarUtils.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/JavaUtils.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/LocalToNonLocalClass.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/LocateClassFile.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Log.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/Message.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_8e9618b0/xsbt/ScaladocInterface.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m      [0m
-[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 8.751s.[0m
 [0m[[0m[0mdebug[0m] [0m[0mCalling Scaladoc with arguments:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UTF-8[0m
