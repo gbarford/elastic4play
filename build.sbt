@@ -1,12 +1,16 @@
 name := "elastic4play"
 
-organization := "org.thehive-project"
+organization := "gbarford"
 
 organizationName := "TheHive-Project"
 
 organizationHomepage := Some(url("https://thehive-project.org/"))
 
 licenses += "AGPL-V3" -> url("https://www.gnu.org/licenses/agpl-3.0.html")
+
+githubOwner := "gbarford"
+
+githubRepository := "elastic4play"
 
 lazy val elastic4play = (project in file("."))
   .enablePlugins(PlayScala, PlayAkkaHttp2Support)
